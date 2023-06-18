@@ -1,0 +1,22 @@
+
+particle_filter:
+  ros__parameters:
+    num_particles: 5000.0 # Number of particles (put it in float)
+    lin_thresh: 0.1 # Threshold value for linear movement before a particle filter update occurs
+    # ang_thresh: 0.1
+    ang_thresh: 0.52359877559 # Threshold value for angular movement before a particle filter update occurs
+    motion_pos_noise_wt: 0.1 # Weight of noise function (in meters) added to the x- and y- positions in the particle motion model
+    motion_ang_noise_wt: 0.2 # Weight of noise function (in radians) added to the yaw angle in the particle motion model
+    #ang_meas_deg: [180, 225, 270, 315, 0, 45, 90, 135] # List of desired angles to sample LiDAR range measurements from in degrees
+    z_max: 12.0 # Maximum scan range in meters
+    sigma_hit: 0.5 # Gaussian noise (standard deviation in meters) of the measurements 
+    z_hit: 1.0 # Weight of measurement noise distribution
+    resampling_pos_noise: 0.5 # Gaussian noise (standard deviation in meters) added to the x- and y- positions when resampling new particles
+
+
+
+
+
+
+
+
