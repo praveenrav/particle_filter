@@ -15,7 +15,7 @@ def generate_launch_description():
         default_value=os.path.join(get_package_share_directory('particle_filter'),'config','pf_params.yaml'),
         description='Full path to params file for particle filter.')
     
-    params_path = '/home/praveenrav702/comp_ws/src/particle_filter/config/pf_params.yaml'
+    params_path = '/home/praveenrav702/dev_ws/src/particle_filter/config/pf_params.yaml'
 
     pf_node = Node(
             package='particle_filter',
