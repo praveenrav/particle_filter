@@ -31,6 +31,8 @@ The system is now set up to run the particle filter algorithm. To run the partic
 The algorithm places the pose (position and orientation) for each of the particles as a PoseArray within RViz, while updating the average pose of the particle (which represents the estimated pose of the robot) using a Pose marker.
 
 
+
+
 ### Particle Filter Parameters
 
 The available particle filter parameters for tuning and customization is found in the pf_params.yaml file in the 'config' folder. The parameters are as follows:
