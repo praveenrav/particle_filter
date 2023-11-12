@@ -53,3 +53,27 @@ The available particle filter parameters for tuning and customization is found i
 `z_hit` - Weight of measurement noise distribution
 
 `resampling_pos_noise` - Gaussian noise (standard deviation in meters) added to the x- and y- positions when resampling new particles
+
+
+
+
+
+### Demonstration of Particle Filter
+
+
+The below GIF showcases the execution of the particle filter using the map pf_room_final and the parameters found in the 'config' folder:
+
+![](https://github.com/praveenrav/particle_filter/Particle_Filter.gif)
+
+
+
+
+
+
+
+
+
+
+
+
+
