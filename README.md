@@ -7,6 +7,7 @@ This project is intended to be used in correspondence with the autonomous_diff_d
 To properly run, import this package into the same workspace containing the autonomous_diff_drive package.
 
 Next, in separate terminals, run the following commands in this specific order. Please make sure to install all necessary packages and dependencies:
+
 `ros2 launch autonomous_diffdrive_robot launch_sim.launch.py world:=./src/autonomous_diffdrive_robot/worlds/pf_room_final.world`
 
 `rviz2 -d ./src/autonomous_diffdrive_robot/config/main.rviz `
