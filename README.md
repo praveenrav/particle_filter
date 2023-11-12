@@ -37,10 +37,17 @@ The available particle filter parameters for tuning and customization is found i
 
 
 `num_particles` - Number of particles
+
 `lin_thresh` - Threshold value for a linear movement before a particle filter update occurs
+
 `ang_thresh` - Threshold value for angular movement before a particel filter update occurs
+
 `motion_pos_noise_wt` - Weight of noise function (in meters) added to the x- and y- positions in the particle motion model
+
 `z_max` - Maximum scan range of LiDAR sensor in meters
+
 `sigma_hit` - Gaussian noise (standarad deviation in meters) of the measurements
+
 `z_hit` - Weight of measurement noise distribution
+
 `resampling_pos_noise` - Gaussian noise (standard deviation in meters) added to the x- and y- positions when resampling new particles
