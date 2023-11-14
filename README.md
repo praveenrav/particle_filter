@@ -61,7 +61,7 @@ The available particle filter parameters for tuning and customization is found i
 
 The below GIF showcases the execution of the particle filter using the map pf_room_final and the parameters found in the 'config' folder:
 
-![me](https://github.com/praveenrav/particle_filter/Particle_Filter.gif)
+![Particle Filter GIF](https://github.com/praveenrav/particle_filter/blob/main/Particle_Filter.gif)
 
 
 
