@@ -15,8 +15,6 @@ Next, in separate terminals, run the following commands in this specific order. 
 
 `ros2 run nav2_map_server map_server --ros-args -p yaml_filename:=pf_room_final.yaml -p use_sim_time:=true`
 
-`ros2 run nav2_map_server map_server --ros-args -p yaml_filename:=pf_room_final.yaml -p use_sim_time:=true`
-
 `ros2 run teleop_twist_keyboard teleop_twist_keyboard /cmd_vel:=/cmd_vel_teleop`
 ```
 
